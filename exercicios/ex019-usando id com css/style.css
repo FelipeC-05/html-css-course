@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*
+
+em HTML é id = em CSS é #
+em HTML é class = em CSS é >
+*/
+
+
+body 
+{
+    background-color: rgba(243, 209, 56, 0.575);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}   
+
+h1
+{
+    color: red;
+}
+
+h1#principal{
+    text-align: center;
+}
+
+h2
+{
+    color: blueviolet;
+}
+
+h2#principal
+{
+    text-align: center;
+    font-weight: normal;
+    font-size: 3em;
+}
+
+.basico
+{
+    color: red;
+}
+
+.intermediario 
+{
+    color: aqua ;
+}

@@ -1,0 +1,51 @@
+@charset 'UTF-8';
+
+h1
+{
+    background-color: lightgray;
+    height: 150px;
+    width: 376px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+
+    /*  border: 10px solid red; */
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    /*padding: 10px 10px 10px 10px;*/
+    
+    /*padding: 10px; (se caso todos forem iguais)*/
+
+    /*se dois valores o primeiro sera cima e baixo e o segundo sera lados*/
+
+
+    margin:auto;
+
+    /*magin: 20px auto 40px auto;*/
+
+    outline-width: 2px;
+    outline-style: dashed;
+    outline-color: black;
+
+    /*Pouco usado mas pode ser simplificado seguindo a ordem acima*/
+
+}
+
+
+a 
+{
+    display: block;
+    border-width: 3px;
+    border-style: solid;
+    border-color: blueviolet;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
