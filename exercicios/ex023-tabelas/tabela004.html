@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de carros</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+        table{
+            width: 700px;
+            height: 400px;
+            border-collapse: collapse;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead{
+            background-color: rgba(0, 0, 0, 0.822);
+            color: white;
+            text-align: center;
+        }
+
+        .volvo{
+            background-color: rgba(58, 34, 34, 0.822);
+            color: white;
+        }
+
+        .volks{
+            background-color: rgba(38, 38, 194, 0.822);
+            color: rgb(255, 255, 255);
+        }
+
+        #volvo{
+            background-color: rgba(58, 34, 34, 0.945);
+            color: white;
+        }
+
+        #volks{
+            background-color: rgba(38, 38, 194, 0.932);
+            color: rgb(255, 255, 255);}
+
+    </style>
+
+
+</head>
+<body>
+
+    <h1>Marcas e carros bons para o dia a dia</h1>
+
+
+
+    <table>
+        <caption>Esta lista pode não estar completa e/ou necessitar de explicação do porque esses modelos.</caption>
+        <thead>
+            <tr>
+                <td scope="row">Marcas</td>
+                <td scope="row">Nomes</td>
+                <td scope="row" colspan="2">Motor Combustão/Elétrico</td>
+                <td scope="row">Potência Combinada</td>
+                <td scope="row">Velocidade Máx</td>
+                <td scope="row" colspan="2">Consumo Urbano/Rodoviário</td>
+                <td scope="row">Ano/modelo</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="col" rowspan="3" class="volvo">Volvo</td>
+                <td>XC90 T8 Hybrid</td>
+                <td>2.0 Turbo 320cv</td>
+                <td>Elétrico 87cv</td>
+                <td>407cv</td>
+                <td>180 km/h</td>
+                <td>15,5 km/l</td>
+                <td>17,4 km/l</td>
+                <td>2022</td>
+            </tr>
+            <tr id="volvo">
+                <td>XC60 T8 Hybrid</td>
+                <td>2.0 Turbo 310cv</td>
+                <td>Eletrico 145cv</td>
+                <td>455cv</td>
+                <td>180 km/h</td>
+                <td>11,1 km/l</td>
+                <td>11,2 km/l</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>S90 Hybrid</td>
+                <td>2.0 Turbo 320cv</td>
+                <td>Eletrico 87cv</td>
+                <td>407cv</td>
+                <td>180 km/h</td>
+                <td>21,3 km/l</td>
+                <td>25,6km/l</td>
+                <td>2022</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="3" class="volks">Volkswagen</td>
+                <td>Jetta GLI</td>
+                <td>2.0 turbo 231cv</td>
+                <td>--</td>
+                <td>231cv</td>
+                <td>249 km/h</td>
+                <td>9,9 km/l</td>
+                <td>12,2 km/l</td>
+                <td>2023</td>
+            </tr>
+            <tr scope="col" id="volks">
+                <td>Golf TSI</td>
+                <td>2.0 Turbo 240cv</td>
+                <td>--</td>
+                <td>240cv</td>
+                <td>240 km/h</td>
+                <td>10,6 km/l</td>
+                <td>14,5 km/l</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>Tiguan Allspace</td>
+                <td>2.0 Turbo 220cv</td>
+                <td>--</td>
+                <td>220cv</td>
+                <td>223 km/h</td>
+                <td>8,3 km/l</td>
+                <td>9,6 km/l</td>
+                <td>2021</td>
+            </tr>
+        </tbody>
+
+
+
+    </table> 
+</body>
+</html>
