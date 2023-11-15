@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+        <form action="cadastro.php"  method="post">
+            <p>
+                <label for="iname">Name: </label>
+                <input type="text" name="name" id="iname" maxlength="20"
+                placeholder="Nome completo">
+            </p>
+
+            <p>
+                <label for="imedia">Média: </label>
+                <input type="number" name="media" id="imedia" required maxlength="10" placeholder="Média" step="0.1">
+            </p>
+
+            <p>
+                <label for="imes">Periodo Letivo</label>
+                <input type="month" name="mes" id="imes">
+            </p>
+
+
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+
+
+        </form>
+
+
+
+    
+</body>
+</html>
